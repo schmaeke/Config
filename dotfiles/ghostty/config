@@ -1,0 +1,62 @@
+# Font settings
+font-family = "Rec Mono Linaer"
+font-thicken = true
+font-feature = -calt
+
+font-size = 16
+window-inherit-font-size = true
+
+# Color theme
+theme = dark_modern
+minimum-contrast = 1
+
+background-opacity = 1.0
+background-blur-radius = 20
+
+# Cursor settings
+cursor-style = block
+cursor-style-blink = false
+
+# Typing settings
+mouse-hide-while-typing = false
+
+# Split settings
+unfocused-split-opacity = 0.95
+
+# Working directory for new instances
+working-directory = home
+window-inherit-working-directory = true
+
+# Window padding
+window-padding-x = 2
+window-padding-y = 2
+window-padding-balance = false
+window-padding-color = background
+
+# Window settings
+window-decoration = true
+window-theme = system
+window-height = 35
+window-width = 100
+window-save-state = default
+window-step-resize = false
+window-new-tab-position = current
+resize-overlay = after-first
+macos-titlebar-style = transparent
+macos-titlebar-proxy-icon = hidden
+macos-window-shadow = true
+
+# Startup and closing
+quit-after-last-window-closed = false
+initial-window = true
+
+# Custom shortcuts
+keybind = super+control+h=new_split:left
+keybind = super+control+j=new_split:down
+keybind = super+control+k=new_split:up
+keybind = super+control+l=new_split:right
+
+keybind = super+shift+h=goto_split:left
+keybind = super+shift+j=goto_split:bottom
+keybind = super+shift+k=goto_split:top
+keybind = super+shift+l=goto_split:right

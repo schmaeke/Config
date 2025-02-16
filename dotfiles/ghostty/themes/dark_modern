@@ -1,0 +1,36 @@
+# Port of the vs-code color-scheme for Ghostty
+
+background = #1e1e1e
+foreground = #ffffff
+
+selection-foreground = #ffffff
+selection-background = #3a3d31
+selection-invert-fg-bg = false
+
+cursor-color = #a6a6a6
+cursor-text = #1e1e1e
+cursor-invert-fg-bg = false
+
+palette = 0=#3a3a3a
+palette = 8=#505050
+
+palette = 1=#c04d4d
+palette = 9=#ff7070
+
+palette = 2=#8dc47e
+palette = 10=#c4f08c
+
+palette = 3=#d3b34a
+palette = 11=#f0e08f
+
+palette = 4=#5c8ef0
+palette = 12=#7da6ff
+
+palette = 5=#ad71ac
+palette = 13=#e7a5e8
+
+palette = 6=#72b2cc
+palette = 14=#94e2ff
+
+palette = 7=#c2c2c2
+palette = 15=#ffffff

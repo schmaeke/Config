@@ -1,0 +1,56 @@
+theme = "dark_modern"
+
+[editor]
+line-number = "absolute"
+mouse = true
+scrolloff = 10
+cursorline = true
+gutters = ["line-numbers", "diff"]
+auto-completion = true
+path-completion = true
+auto-format = true
+completion-timeout = 5
+preview-completion-insert = true
+bufferline = "never"
+insert-final-newline = true
+popup-border = "none"
+end-of-line-diagnostics = "info"
+color-modes = true
+
+[editor.whitespace.render]
+space = "none"
+tab = "none"
+nbsp = "none"
+nnbsp = "none"
+newline = "none"
+
+[editor.statusline]
+# left = ["mode", "spinner", "spacer", "diagnostics"]
+# center = ["read-only-indicator", "file-base-name", "file-modification-indicator"]
+# right = ["version-control", "spacer", "file-type", "spacer", "selections", "spacer", "position-percentage"]
+# mode.normal = "NOR"
+# mode.insert = "INS"
+# mode.select = "SEL"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = false
+
+[editor.soft-wrap]
+enable = true
+
+[editor.inline-diagnostics]
+cursor-line = "info"
+
+[keys.normal]
+"{" = "goto_prev_paragraph"
+"}" = "goto_next_paragraph" 
+
+[keys.select]
+"{" = "goto_prev_paragraph"
+"}" = "goto_next_paragraph" 
+

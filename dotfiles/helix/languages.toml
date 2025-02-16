@@ -1,0 +1,12 @@
+[[language]]
+name = "julia"
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "python"
+indent = { tab-width = 2, unit = "  " }
+
+
+[[language]]
+name = "latex"
+indent = { tab-width = 2, unit = "  " }
