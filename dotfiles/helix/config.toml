@@ -24,14 +24,6 @@ nbsp = "none"
 nnbsp = "none"
 newline = "none"
 
-[editor.statusline]
-# left = ["mode", "spinner", "spacer", "diagnostics"]
-# center = ["read-only-indicator", "file-base-name", "file-modification-indicator"]
-# right = ["version-control", "spacer", "file-type", "spacer", "selections", "spacer", "position-percentage"]
-# mode.normal = "NOR"
-# mode.insert = "INS"
-# mode.select = "SEL"
-
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
@@ -53,4 +45,3 @@ cursor-line = "info"
 [keys.select]
 "{" = "goto_prev_paragraph"
 "}" = "goto_next_paragraph" 
-
