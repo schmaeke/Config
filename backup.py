@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-import os
-import shutil
+import os, shutil
 from pathlib import Path
 
 def backup_dotfiles(dotfiles, backup_dir):
